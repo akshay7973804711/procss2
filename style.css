@@ -132,7 +132,7 @@ font-size: 30px;
         .back button a {
             text-decoration: none;
         }
-        @media (min-width:768px){
+        @media (min-width:268px){
             .main_grid {
                width: 100%;
                padding: 10;
@@ -147,7 +147,7 @@ font-size: 30px;
             box-sizing: border-box;
             } 
         }
-        @media (max-width: 1268){
+        @media (max-width: 767){
             .main_grid {
                 padding: 10;
              }
