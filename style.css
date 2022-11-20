@@ -132,3 +132,29 @@ font-size: 30px;
         .back button a {
             text-decoration: none;
         }
+        @media (min-width:768px){
+            .main_grid {
+               width: 100%;
+               padding: 10;
+               padding-right: 10px;
+               text-align: center;
+              height: auto;
+              margin: 10px;
+
+            }
+            .grid_view{
+            width: 100%;
+            box-sizing: border-box;
+            } 
+        }
+        @media (max-width: 1268){
+            .main_grid {
+                padding: 10;
+             }
+        }
+        /* @media (max-width:468){
+            .main2 {
+                background-color: #610b0b;
+                box-sizing: border-box;
+            }
+        } */
